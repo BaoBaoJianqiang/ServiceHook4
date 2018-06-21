@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jianqiang.com.testservice1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <service android:name=".MyService1" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="jianqiang_action" />
+            </intent-filter>
+        </service>
+        <service android:name=".MyService2" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="jianqiang_action2" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

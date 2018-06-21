@@ -1,0 +1,1 @@
+include ':ServiceHook1', ':TestService1', ':mypluginlibrary'
