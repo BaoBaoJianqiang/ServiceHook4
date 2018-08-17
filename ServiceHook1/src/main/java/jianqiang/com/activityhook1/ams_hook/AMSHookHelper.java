@@ -1,11 +1,9 @@
 package jianqiang.com.activityhook1.ams_hook;
 
-import android.os.Handler;
+import com.example.jianqiang.mypluginlibrary.RefInvoke;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Proxy;
-
-import jianqiang.com.activityhook1.RefInvoke;
 
 public class AMSHookHelper {
 
